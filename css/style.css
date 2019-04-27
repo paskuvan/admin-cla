@@ -26,6 +26,9 @@
     margin-left: -50px;
   }
 
+  .max {
+    font-size: 14px;
+  }
   
 }
 
@@ -35,6 +38,10 @@
     position: absolute;
     left: 25%;
     margin-left: -50px;
+  }
+
+  .max {
+    font-size: 14px;
   }
 }
 
@@ -56,10 +63,6 @@ body {
 
 .text-center {
   text-align: center;
-}
-
-.centered {
-  
 }
 
 /*==========  Buttons  ==========*/
@@ -104,6 +107,10 @@ text-sub {
 
 .min {
   font-size: 18px;
+}
+
+.max {
+  font-size: 16px;
 }
 
 no-bold {
@@ -171,7 +178,7 @@ no-bold {
 }
 
 .buscar {
-  padding: 20px 0;
+  padding: 20px 15px;
 }
 
 .form-text {

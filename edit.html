@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Administración</title>
+    <!-- Bootstrap 3.37 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS Style-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="crear">
+        <div class="container">
+            <div class="min buscar">Editar Notificaciones</div>
+            <div class="col-sm-12">
+                <p class="max">Aquí puedes crear tus notificaciones</p>
+
+            </div>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="codigo" class="col-sm-2 control-label">Código</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="CA-003">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="titulo" class="col-sm-2 control-label">Título</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Crédito Online">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje" class="col-sm-2 control-label">Mensaje*</label>
+                    <div class="col-sm-4">
+                        <textarea class="form-control" rows="5" id="mensaje" placeholder="Pide tu crédito por monto en cuotas"></textarea>
+                    </div>
+                    <label for="campos" class="col-sm-2 control-label">Campos Variables</label>
+                    <div class="col-sm-4">
+                        <textarea class="form-control" rows="5" id="mensaje" placeholder="Monto, Cuota, Valor, Fecha"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="link" class="col-sm-2 control-label">Link</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="link" placeholder="http://www.credito.cl">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="adjuntar" class="col-sm-2 control-label lab">Adjuntar</label>
+                    <div class="col-sm-4">
+                        <input type="file" id="adjuntar">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="canal" class="col-sm-2 control-label">Canal</label>
+                    <div class="col-sm-4">
+                        <select class="form-control">
+                            <option>Selecciona Canal</option>
+                            <option>Canal1</option>
+                            <option>Canal2</option>
+                            <option>Canal3</option>
+                            <option>Canal4</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="motivo" class="col-sm-2 control-label">Motivo</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="inputEmail3">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-4">
+                        <button type="submit" class="btn btn-blue">Cancelar</button>
+                        <button type="submit" class="btn btn-login">Guardar</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
