@@ -20,6 +20,7 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+  
 
   
 }
@@ -58,7 +59,7 @@ body {
 .btn-login {
   background-color: #f9be00;
   color: white;
-  margin-top: 10px;
+  
 }
 
 .btn-login:hover, .btn-login:focus, .btn-login:active, .btn-login.active, .open>.dropdown-toggle.btn-login {
@@ -69,7 +70,7 @@ body {
 .btn-blue {
   background-color: #1896D3;
   color: white;
-  margin-top: 10px;
+  
 }
 
 .btn-blue:hover, .btn-blue:focus, .btn-blue:active, .btn-blue.active, .open>.dropdown-toggle.btn-blue {
@@ -156,6 +157,45 @@ no-bold {
 }
 
 /*==========  Search  ==========*/
+
+.crear {
+  margin: 5%;
+}
+
+.buscar {
+  padding: 20px 0;
+}
+
+.form-text {
+  margin: 5px 0;
+}
+
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+  background-color: #f5f5f5;
+  color: #4F5858;
+  padding: 10px;
+}
+
+.tab-not {
+  border: 1px solid #1896D3;
+  text-align: center;
+  color: #4F5858;
+  padding: 20px;
+}
+
+.alert {
+  position: absolute;
+}
+
+.btn-add {
+  background-color: #1896d3;
+  color: white;
+}
 
 
 
