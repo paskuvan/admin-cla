@@ -66,6 +66,17 @@ body {
   color: white;
 }
 
+.btn-blue {
+  background-color: #1896D3;
+  color: white;
+  margin-top: 10px;
+}
+
+.btn-blue:hover, .btn-blue:focus, .btn-blue:active, .btn-blue.active, .open>.dropdown-toggle.btn-blue {
+  background-color: #1896D3;
+  color: white;
+}
+
 /*==========  Texts  ==========*/
 
 text-sub {
@@ -122,5 +133,29 @@ no-bold {
   -moz-box-shadow: none !important;
   box-shadow: none !important;
 }
+
+/*==========  Pop Up  ==========*/
+
+.modal-header {
+  padding-bottom: 5px;
+  border-bottom: 0 !important;
+}
+
+.message-text {
+  font-size: 16px;
+  text-align: center;
+}
+
+.parent-container {
+  text-align: center;
+}
+
+.glyphicon {
+  font-size: 50px;
+  color: red;
+}
+
+/*==========  Search  ==========*/
+
 
 

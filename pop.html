@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Administración</title>
+    <!-- Bootstrap 3.37 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS Style-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Usuario no ingresado-->
+    <div class="center">
+        <button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-login center-block">Usuario no registrado</button>
+    </div>
+    <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="parent-container">
+                        <i class="glyphicon glyphicon-remove-sign"></i>
+                    </div>
+                </div>
+                <div class="modal-body message-text">
+                    <p>El usuario ingresado no se encuentra registrado.
+                        <br>Intenta nuevamente o contacta a la mesa de ayuda.
+                    </p>
+                    <div class="parent-container">
+                        <button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-blue">Aceptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contraseña incorrecta-->
+    <div class="center">
+        <button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-login center-block">Contraeña incorrecta</button>
+    </div>
+    <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="parent-container">
+                        <i class="glyphicon glyphicon-remove-sign"></i>
+                    </div>
+                </div>
+                <div class="modal-body message-text">
+                    <p>La contraseña ingresada no corresponde.
+                        <br>Intenta nuevamente o contacta a la mesa de ayuda.
+                    </p>
+                    <div class="parent-container">
+                        <button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-blue">Aceptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Usuario bloqueado-->
+    <div class="center">
+        <button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-login center-block">Usuario bloqueado</button>
+    </div>
+    <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="parent-container">
+                        <i class="glyphicon glyphicon-remove-sign"></i>
+                    </div>
+                </div>
+                <div class="modal-body message-text">
+                    <p>El usuario se encuentra bloqueado,
+                        <br> contacta a la mesa de ayuda.
+                    </p>
+                    <div class="parent-container">
+                        <button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-blue">Aceptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
