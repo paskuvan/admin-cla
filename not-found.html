@@ -5,19 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>No encontrado</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Administración</title>
+    <!-- Bootstrap 3.37 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS Style-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="crear">
         <div class="container">
-            <div class="txt1">Ingrese los criterios para la búsqueda</div>
+            <div class="min buscar">Ingrese los criterios para la búsqueda</div>
             <form class="form-horizontal">
                 <div class="form-group">
-                    <label for="exampleInputName2" class="col-sm-2 control-label">Criterio</label>
+                    <label for="criterio" class="col-sm-2 control-label">Criterio</label>
                     <div class="col-sm-2">
                         <select class="form-control">
                             <option>Canal</option>
@@ -26,32 +27,35 @@
                             <option>Estado</option>
                         </select>
                     </div>
-                    <label for="exampleInputName2" class="col-sm-2 control-label">Valor</label>
+                    <label for="valor" class="col-sm-2 control-label">Valor</label>
                     <div class="col-sm-2">
-                        <input type="text" class="form-control" id="exampleInputName2">
+                        <input type="text" class="form-control" id="valor">
                     </div>
                     <div class="col-sm-2">
 
-                        <a class="btn btn-add" href="./agregar.html" role="button" data-toggle="tooltip" title="agregar">Agregar</a>
-                        <a class="btn btn-ylw" href="#" role="button" data-toggle="tooltip" title="buscar">Buscar</a>
+                        <a class="btn btn-blue" href="./agregar.html" role="button" data-toggle="tooltip" title="agregar">Agregar</a>
+                        <a class="btn btn-login" href="#" role="button" data-toggle="tooltip" title="buscar">Buscar</a>
                     </div>
                 </div>
 
-                <div class="form-group">
-                    <label for="exampleInputName2" class="col-sm-2 control-label"></label>
-                    <!-- <div class="col-sm-2">
-                                <button type="submit" class="btn btn-ylw">Canal App</button>
-                        </div> -->
-
-                </div>
-
-            <div class="col-lg-6 tab-not centered">
-                No se encontraron notificaciones según los criterios.
-            </div>
-               
+                <!-- <div class="form-group">
+                    <label for="tag" class="col-sm-2 control-label"></label>
+                    <div class="col-sm-2">
+                            <button type="submit" class="btn btn-ylw">Canal App</button>
+                        </div> 
+                </div> -->
             </form>
+            <div class="col-lg-6 center-tab centered">
+                <div class=" tab-not">
+                        No se encontraron notificaciones según los criterios.
+                </div>
+            </div>
         </div>
     </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
