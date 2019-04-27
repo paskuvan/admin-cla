@@ -1,0 +1,44 @@
+/*==========  Fonts  ==========*/
+
+@font-face {
+  font-family: 'geomanistbold';
+  src: url('../fonts/geomanist/geomanist_bold-webfont.woff2') format('woff2'),
+       url('../fonts/geomanist/geomanist_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'geomanist_regularregular';
+  src: url('../fonts/geomanist/geomanist_regular-webfont.woff2') format('woff2'),
+       url('../fonts/geomanist/geomanist_regular-webfont.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'geomanist_regularregular', 'Open Sans', sans-serif;
+}
+
+/*==========  Colors  ==========*/
+
+.color-yellow {background-color: #f9be00;}
+.color-blue {background-color: #1896D3;}
+.color-gray {background-color:#4F5858;}
+
+
