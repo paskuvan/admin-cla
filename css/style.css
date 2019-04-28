@@ -94,6 +94,17 @@ body {
   color: white;
 }
 
+.btn-gray {
+  background-color: #4F5858;
+  color: white;
+  
+}
+
+.btn-gray:hover, .btn-gray:focus, .btn-gray:active, .btn-gray.active, .open>.dropdown-toggle.btn-gray {
+  background-color: #4F5858;
+  color: white;
+}
+
 /*==========  Texts  ==========*/
 
 text-sub {
@@ -323,5 +334,32 @@ color: #FF4337;
 .glyphicon-eye-open {
   font-size: 15px;
   color: #00BD70;
-  }
+}
+
+.modal-body{
+  padding: 15px 20px 10px 20px;
+}
+
+.modal .modal-header {
+  border-bottom: none;
+  position: relative;
+}
+.modal .modal-header .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.modal .modal-footer {
+  border-top: none;
+  padding: 0;
+}
+.modal .modal-footer .btn-group > .btn:first-child {
+  border-bottom-left-radius: 0;
+}
+.modal .modal-footer .btn-group > .btn:last-child {
+  border-top-right-radius: 0;
+}
 
