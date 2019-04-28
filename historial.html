@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Administración</title>
+    <!-- Bootstrap 3.37 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS Style-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="min buscar">
+            Historial de notificaciones
+        </div>
+
+        <div class="btn-left">
+            <input type="submit" name="submit" class="btn btn-login" value="Crear">
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Producto</th>
+                        <th>Canal</th>
+                        <th>Título</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>
+                            <div>
+                                <input id="checkbox1" type="checkbox">
+                                <label for="checkbox1"></label>
+                            </div>
+                        </td>
+                        <td>Directa</td>
+                        <td>Crédito</td>
+                        <td>App</td>
+
+                        <td>Activa</td>
+                        <td>
+                            <a href="#" class="show-file" data-toggle="tooltip" title="Ver"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+                            <a href="#" class="edit-file" data-toggle="tooltip" title="Editar"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+                            <a class="delete-file" data-toggle="modal" data-target=".delete-confirmation-modal" title="Eliminar">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <input id="checkbox2" type="checkbox">
+                                <label for="checkbox2"></label>
+                            </div>
+                        </td>
+                        <td>Directa</td>
+                        <td>Lic. Médica</td>
+
+                        <td>Lic. Médica</td>
+                        <td>Desactiva</td>
+                        <td>
+                            <a href="#" class="show-file" data-toggle="tooltip" title="Ver"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+                            <a href="#" class="edit-file" data-toggle="tooltip" title="Editar"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+                            <a class="delete-file" data-toggle="modal" data-target=".delete-confirmation-modal" title="Eliminar">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                            </a>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
