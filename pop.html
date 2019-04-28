@@ -13,75 +13,110 @@
 </head>
 
 <body>
-    <!--Usuario no ingresado-->
-    <div class="center">
-        <button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-login center-block">Usuario no registrado</button>
-    </div>
-    <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="parent-container">
-                        <i class="glyphicon glyphicon-remove-sign"></i>
+        <!--Usuario no ingresado-->
+    <div class="center buscar">
+            <button data-toggle="modal" data-target="#register" class="btn btn-login center-block">Usuario no registrado</button>
+        </div>
+        <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="parent-container">
+                            <i class="glyphicon glyphicon-remove-sign"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="modal-body message-text">
-                    <p>El usuario ingresado no se encuentra registrado.
-                        <br>Intenta nuevamente o contacta a la mesa de ayuda.
-                    </p>
-                    <div class="parent-container">
-                        <button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-blue">Aceptar</button>
+                    <div class="modal-body message-text">
+                        <p>El usuario ingresado no se encuentra registrado.
+                            <br>Intenta nuevamente o contacta a la mesa de ayuda.
+                        </p>
+                        <div class="parent-container">
+                            <button data-toggle="modal" data-target="#register" class="btn btn-blue">Aceptar</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--Contraseña incorrecta-->
-    <div class="center">
-        <button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-login center-block">Contraeña incorrecta</button>
-    </div>
-    <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="parent-container">
-                        <i class="glyphicon glyphicon-remove-sign"></i>
+        <!--Contraseña incorrecta-->
+        <div class="center buscar">
+            <button data-toggle="modal" data-target="#incorrecta" class="btn btn-login center-block">Contraeña incorrecta</button>
+        </div>
+        <div class="modal fade" id="incorrecta" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="parent-container">
+                            <i class="glyphicon glyphicon-remove-sign"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="modal-body message-text">
-                    <p>La contraseña ingresada no corresponde.
-                        <br>Intenta nuevamente o contacta a la mesa de ayuda.
-                    </p>
-                    <div class="parent-container">
-                        <button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-blue">Aceptar</button>
+                    <div class="modal-body message-text">
+                        <p>La contraseña ingresada no corresponde.
+                            <br>Intenta nuevamente o contacta a la mesa de ayuda.
+                        </p>
+                        <div class="parent-container">
+                            <button data-toggle="modal" data-target="#incorrecta" class="btn btn-blue">Aceptar</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--Usuario bloqueado-->
-    <div class="center">
-        <button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-login center-block">Usuario bloqueado</button>
-    </div>
-    <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="parent-container">
-                        <i class="glyphicon glyphicon-remove-sign"></i>
+        <!--Usuario bloqueado-->
+        <div class="center buscar">
+            <button data-toggle="modal" data-target="#bloqueado" class="btn btn-login center-block">Usuario bloqueado</button>
+        </div>
+        <div class="modal fade" id="bloqueado" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="parent-container">
+                            <i class="glyphicon glyphicon-remove-sign"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="modal-body message-text">
-                    <p>El usuario se encuentra bloqueado,
-                        <br> contacta a la mesa de ayuda.
-                    </p>
-                    <div class="parent-container">
-                        <button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-blue">Aceptar</button>
+                    <div class="modal-body message-text">
+                        <p>El usuario se encuentra bloqueado,
+                            <br> contacta a la mesa de ayuda.
+                        </p>
+                        <div class="parent-container">
+                            <button data-toggle="modal" data-target="#bloqueado" class="btn btn-blue">Aceptar</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <!--El archivo cargado en Carga-bar.html-->
+        <div class="center buscar">
+                <button data-toggle="modal" data-target="#cargar" class="btn btn-login center-block">Cargado</button>
+        </div>
+        <div class="modal fade" id="cargar" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body message-text">
+                        <p>El archivo ha sido cargado correctamente.
+                        </p>
+                        <div class="parent-container">
+                            <button data-toggle="modal" data-target="#cargar" class="btn btn-blue">Aceptar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!--El archivo subido en Carga-bar.html-->
+         <div class="center buscar">
+                <button data-toggle="modal" data-target="#subido" class="btn btn-login center-block">Subido</button>
+            </div>
+            <div class="modal fade" id="subido" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body message-text">
+                            <p>¿Estás seguro que desea subir el archivo adjunto?
+                            </p>
+                            <div class="parent-container">
+                                <button data-toggle="modal" data-target="#subido" class="btn btn-login">Cancelar</button>
+                                <button data-toggle="modal" data-target="#subido" class="btn btn-blue">Aceptar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
